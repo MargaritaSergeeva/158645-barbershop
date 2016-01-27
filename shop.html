@@ -8,7 +8,7 @@
 		<header class="main-header">
 			<div class="container">
 				<div class="logo">
-					<img src="http://placehold.it/150x100" width="" height="" alt="Барбершоп &laquo;Бородинский&raquo;">
+					<a href="index.html"><img src="http://placehold.it/150x100" width="" height="" alt="Барбершоп &laquo;Бородинский&raquo;"></a>
 				</div>
 				<nav class="main-navigation">
 					<ul>
@@ -31,13 +31,26 @@
 				</nav>
 				<div class="user-block">
 					<a class="login" href="#">Вход</a>
+					<div class="login-wrapper pop-up">
+					  <button class="btn-off">Закрыть</button>
+						<form class="login-form" action="#" method="post">
+							<h1>Личный кабинет</h1>
+							<p>Введите пожалуйста свой логин и пароль</p>
+							<input name="login" type="text" placeholder="Логин">
+							<input name="password" type="password" placeholder="Пароль">
+							<input id="save" name="save" type="checkbox" checked>
+							<label for="save">Запомните меня</label>
+							<a href="#">Я забыл пароль!</a>
+							<button type="submit">Войти</button>
+						</form>
+					</div>
 				</div> 
 			</div>
 		</header>
 		<main class="container">
 			<h1>Средства для ухода</h1>
 			<section class="breadcrumbs">
-				<a class="crumb" href="#">Главная</a>
+				<a class="crumb" href="index.html">Главная</a>
 				<a class="crumb" href="#">Магазин</a>
 				<span class="crumb open">Средства для ухода</span>
 			</section>
@@ -76,7 +89,7 @@
 					<p>Набор для путешествий <span>&laquo;Baxter of California&raquo;</span></p>
 					<div class="purchase">
 						<div class="purchase-price">2900 руб.</div>
-						<a class="purchase-buy" href="#">Купить</a>
+						<a class="purchase-buy" href="item.html">Купить</a>
 					</div> 
 				</article>
 				<article class="goods-item">
